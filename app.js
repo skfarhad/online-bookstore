@@ -23,6 +23,8 @@ app.get('/', function(req, res){
 
 });
 
+// just test
+
 app.get('/api/genres', function(req, res){
 	console.log("from app.js")
 	Genre.getGenres(function(blah, genres){
